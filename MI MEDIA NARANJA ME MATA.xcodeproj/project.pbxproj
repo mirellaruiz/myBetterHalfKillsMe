@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4813CD5F1FAB2A1C00D3915F /* DeathDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4813CD5E1FAB2A1C00D3915F /* DeathDateViewController.swift */; };
 		ED7892271F9E726F00231E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7892261F9E726F00231E7A /* AppDelegate.swift */; };
 		ED7892291F9E726F00231E7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7892281F9E726F00231E7A /* ViewController.swift */; };
 		ED78922C1F9E726F00231E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED78922A1F9E726F00231E7A /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		ED7892311F9E726F00231E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED78922F1F9E726F00231E7A /* LaunchScreen.storyboard */; };
 		ED78923C1F9E727000231E7A /* MI_MEDIA_NARANJA_ME_MATATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78923B1F9E727000231E7A /* MI_MEDIA_NARANJA_ME_MATATests.swift */; };
 		ED7892471F9E727000231E7A /* MI_MEDIA_NARANJA_ME_MATAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7892461F9E727000231E7A /* MI_MEDIA_NARANJA_ME_MATAUITests.swift */; };
+		ED7892551F9E72CE00231E7A /* RelationshipDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7892541F9E72CE00231E7A /* RelationshipDateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4813CD5E1FAB2A1C00D3915F /* DeathDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeathDateViewController.swift; sourceTree = "<group>"; };
 		ED7892231F9E726F00231E7A /* MI MEDIA NARANJA ME MATA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MI MEDIA NARANJA ME MATA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7892261F9E726F00231E7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED7892281F9E726F00231E7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		ED7892421F9E727000231E7A /* MI MEDIA NARANJA ME MATAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MI MEDIA NARANJA ME MATAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7892461F9E727000231E7A /* MI_MEDIA_NARANJA_ME_MATAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MI_MEDIA_NARANJA_ME_MATAUITests.swift; sourceTree = "<group>"; };
 		ED7892481F9E727000231E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7892541F9E72CE00231E7A /* RelationshipDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelationshipDateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				ED78922D1F9E726F00231E7A /* Assets.xcassets */,
 				ED78922F1F9E726F00231E7A /* LaunchScreen.storyboard */,
 				ED7892321F9E726F00231E7A /* Info.plist */,
+				ED7892541F9E72CE00231E7A /* RelationshipDateViewController.swift */,
+				4813CD5E1FAB2A1C00D3915F /* DeathDateViewController.swift */,
 			);
 			path = "MI MEDIA NARANJA ME MATA";
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7892551F9E72CE00231E7A /* RelationshipDateViewController.swift in Sources */,
 				ED7892291F9E726F00231E7A /* ViewController.swift in Sources */,
 				ED7892271F9E726F00231E7A /* AppDelegate.swift in Sources */,
+				4813CD5F1FAB2A1C00D3915F /* DeathDateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +515,7 @@
 				ED78924D1F9E727000231E7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED78924E1F9E727000231E7A /* Build configuration list for PBXNativeTarget "MI MEDIA NARANJA ME MATATests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				ED7892501F9E727000231E7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED7892511F9E727000231E7A /* Build configuration list for PBXNativeTarget "MI MEDIA NARANJA ME MATAUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				ED7892531F9E727000231E7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

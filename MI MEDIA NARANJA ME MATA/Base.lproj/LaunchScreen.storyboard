@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,14 +19,127 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="VRT-Wu-Rhg">
+                                <rect key="frame" x="220" y="60" width="296" height="304"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medianaranja" translatesAutoresizingMaskIntoConstraints="NO" id="JLI-0Z-1Ie">
+                                        <rect key="frame" x="19" y="0.0" width="259" height="208"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Desde cuándo una naranja " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egU-H8-9S8">
+                                        <rect key="frame" x="9" y="226" width="279" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" red="1" green="0.62792636851751005" blue="0.10293968729131842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                        <variation key="heightClass=compact-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tiene semejante poder?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yp9-Ty-ex6">
+                                        <rect key="frame" x="33" y="273" width="230" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" red="1" green="0.62792636850000005" blue="0.1029396873" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                        <variation key="heightClass=compact-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VRT-Wu-Rhg" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="100" id="0jz-cn-dty"/>
+                            <constraint firstItem="VRT-Wu-Rhg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="200" id="ApP-2X-46h"/>
+                            <constraint firstItem="VRT-Wu-Rhg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="13" id="Ipc-po-IQM"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="VRT-Wu-Rhg" secondAttribute="bottom" constant="50" id="KsN-pq-6tk"/>
+                            <constraint firstItem="VRT-Wu-Rhg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="150" id="KzJ-xI-X4d"/>
+                            <constraint firstItem="VRT-Wu-Rhg" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="40" id="PcR-BR-YEs"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="VRT-Wu-Rhg" secondAttribute="bottom" constant="120" id="WuU-qo-RfN"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="VRT-Wu-Rhg" secondAttribute="bottom" constant="300" id="glv-pu-BwE"/>
+                            <constraint firstAttribute="trailing" secondItem="VRT-Wu-Rhg" secondAttribute="trailing" constant="50" id="hZf-Tg-mb1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VRT-Wu-Rhg" secondAttribute="trailing" constant="200" id="kPA-HS-QKH"/>
+                            <constraint firstAttribute="bottom" secondItem="VRT-Wu-Rhg" secondAttribute="bottom" constant="30" id="kny-nz-Jc0"/>
+                            <constraint firstItem="VRT-Wu-Rhg" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="25" id="pIj-94-v8q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VRT-Wu-Rhg" secondAttribute="trailing" constant="150" id="s0k-dj-lSG"/>
+                            <constraint firstItem="VRT-Wu-Rhg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="50" id="sdb-JB-ARr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VRT-Wu-Rhg" secondAttribute="trailing" constant="14" id="wDW-dJ-MQE"/>
+                            <constraint firstItem="VRT-Wu-Rhg" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="200" id="xKN-Hf-bmB"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0jz-cn-dty"/>
+                                <exclude reference="ApP-2X-46h"/>
+                                <exclude reference="Ipc-po-IQM"/>
+                                <exclude reference="KzJ-xI-X4d"/>
+                                <exclude reference="PcR-BR-YEs"/>
+                                <exclude reference="hZf-Tg-mb1"/>
+                                <exclude reference="kPA-HS-QKH"/>
+                                <exclude reference="kny-nz-Jc0"/>
+                                <exclude reference="pIj-94-v8q"/>
+                                <exclude reference="s0k-dj-lSG"/>
+                                <exclude reference="sdb-JB-ARr"/>
+                                <exclude reference="wDW-dJ-MQE"/>
+                                <exclude reference="xKN-Hf-bmB"/>
+                                <exclude reference="KsN-pq-6tk"/>
+                                <exclude reference="WuU-qo-RfN"/>
+                                <exclude reference="glv-pu-BwE"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="hZf-Tg-mb1"/>
+                                <include reference="kny-nz-Jc0"/>
+                                <include reference="pIj-94-v8q"/>
+                                <include reference="sdb-JB-ARr"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="ApP-2X-46h"/>
+                                <include reference="PcR-BR-YEs"/>
+                                <include reference="kPA-HS-QKH"/>
+                                <include reference="KsN-pq-6tk"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="0jz-cn-dty"/>
+                                <include reference="Ipc-po-IQM"/>
+                                <include reference="wDW-dJ-MQE"/>
+                                <include reference="WuU-qo-RfN"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="KzJ-xI-X4d"/>
+                                <include reference="s0k-dj-lSG"/>
+                                <include reference="xKN-Hf-bmB"/>
+                                <include reference="glv-pu-BwE"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="medianaranja" width="259" height="194"/>
+    </resources>
 </document>
